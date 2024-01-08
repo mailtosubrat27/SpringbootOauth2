@@ -6,12 +6,13 @@ Create a Spring boot project
 ### 2.
 Add starter web and spring-boot-starter-thymeleaf dependency for html page render
 ### 3.
-Add index.html page
-Run the application http://localhost:8080/
-It will render the html content
+Add index.html page  
+Run the application http://localhost:8080/  
+It will render the html content  
 (no authorization)
 ### 4.
-Add security dependencies
+Add security dependencies  
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-oauth2-client</artifactId>
